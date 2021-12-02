@@ -157,7 +157,7 @@ var searchCode = function searchCode() {
           switch (_context.prev = _context.next) {
             case 0:
               _context.next = 2;
-              return fetch('https://api.postit.lt/?term=Taikos&limit=20&key=postit.lt-examplekey');
+              return fetch('https://api.postit.lt/?term=NiW3hV5TvdWIt6yBE7gs');
 
             case 2:
               res = _context.sent;

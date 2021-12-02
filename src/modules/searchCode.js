@@ -11,15 +11,8 @@ const searchCode = () => {
             .then(() => console.log(searchResponse))
             .then(() => {
                 if (searchResponse.total === 1) {
-
-
-
                     document.querySelector('.result').value = searchResponse.data[0].post_code;
                     storeSearch(searchResponse.data[0].post_code, searchResponse.data[0])
-
-
-
-
                 } else {
                     document.querySelector('main').innerHTML += '<p>Klaida!</p>'
                 }
